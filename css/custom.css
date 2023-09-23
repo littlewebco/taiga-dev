@@ -1,0 +1,72 @@
+.painting {
+    background-color: inherit;
+}
+
+.painting a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.painting p {
+    margin-top: 0.5em;
+}
+
+.row.no-gutters {
+   margin-right: 0;
+   margin-left: 0;
+}
+
+.row.no-gutters > .col,
+.row.no-gutters > [class*="col-"] {
+   padding-right: 0;
+   padding-left: 0;
+}
+
+.clothing__sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.tiger {
+    background-color: #EBD8CD;
+}
+
+.tiger__image {
+    width: 90%;
+}
+
+.brand_text {
+    max-width: 500px;
+}
+
+.tiger__btn {
+    transform: rotate(-15deg);
+}
+
+.tiger__btn:hover {
+    font-weight: bold;
+    color: #1363B0;
+}
+
+.arrow {
+    width: 200px;
+}
+
+.pixellogo1 {
+    width: 12%;
+    position: absolute;
+    top: 16.5em;
+    right: 10em;
+}
+
+.clothing {
+    background-color: #EBD8CD;
+}
+
+@media screen and (max-width: 480px) {
+    .tiger h1 {
+        font-size: 3rem;
+    }
+}
+

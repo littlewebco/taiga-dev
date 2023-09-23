@@ -7,7 +7,8 @@ document.addEventListener("DOMContentLoaded", function () {
     loadTemplatePart("template-part/header.html", "header-container");
     loadTemplatePart("template-part/hero-section.html", "hero-section-container");
     loadTemplatePart("template-part/about-section.html", "about-section-container");
-
+    loadTemplatePart("template-part/clothing-section.html", "clothing-section-container");
+    loadTemplatePart("template-part/brand-section.html", "brand-section");
     loadTemplatePart("template-part/painting-buttons.html", "painting-buttons");
     loadTemplatePart("template-part/cbd-container.html", "cbd-container");
     loadTemplatePart("template-part/mainContext.html", "mainContext");

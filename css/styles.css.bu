@@ -9,8 +9,8 @@
 }
 
 .navbar {
-    background:#c9b6ab, transparent;
-    background-color: #c8b4aa;
+    background:#EBD8CD, transparent;
+    background-color: #EBD8CD;
     opacity: 80%;
     height: 80px;
     display: flex;
@@ -258,25 +258,30 @@
 }
 
 
-/* Gemälde Button */
-
 .painting {
-    width: 100vw;
-    height: auto;
-    background: #EBD8CD;
+    background-color: #EBD8CD;
 }
 
-.painting__container {
-    display: flex;
-    margin: 0 5em;
-} 
-
-.painting__buttons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 8em;
+.painting a {
+    color: inherit;
+    text-decoration: none;
 }
+
+.painting p {
+    margin-top: 0.5em;
+}
+
+.row.no-gutters {
+   margin-right: 0;
+   margin-left: 0;
+}
+
+.row.no-gutters > .col,
+.row.no-gutters > [class*="col-"] {
+   padding-right: 0;
+   padding-left: 0;
+}
+
 
 .button {
     display: flex;
