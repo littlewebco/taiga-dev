@@ -29,7 +29,7 @@
     <nav class="navbar">
         <div class="navbar__container">
             <li class="navbar__image--container">
-                <a href="/" id="navbar__logo"><img src="images/pic2.svg" alt="pic">
+                <a href="index.html" id="navbar__logo"><img src="images/pic2.svg" alt="pic">
                 </a>
             </li>  
             <div class="navbar__toggle" id="mobile-menu">
@@ -61,55 +61,28 @@
         </div>
     </nav>
 
-    <!--Clothing Section-->
-    <div class="tiger">
-        <div class="tiger__container">
-            <h1>CLOTHING</h1>
-            <img src="IMAGES/TAIGA PIXEL2.svg" alt="TAIGA PIXEl" class="pixellogo1">
-            <div class="tiger__container--image">
-                <img src="IMAGES/Taiger.png" alt="Taiger" class="tiger__image"></img>
+
+    <div class="cbd-shop">
+        <div class="cbd-shop__container">
+            <h1>CBD-SHOP</h1>
+            <img src="IMAGES/TAIGA PIXEL2.svg" alt="TAIGA PIXEl" class="pixellogo4">
+            <div class="cbd-shop__images">
+                <img src="IMAGES/SKETCHBOARD.svg" alt="sketchboard" class="cbd-pic1">
+                <img src="IMAGES/CBD-COLLAGE.svg" alt="cbd-collage" class="cbd-pic2">
             </div>
+            <p>COMING SOON...!</p>
         </div>
-        <div class="brand_text">
-            <p>
-                Weil wir nachhaltige Marken lieben. Taiga mag Designs, die auf den Punkt kommen.
-                Die man eigentlich immer anziehen kann. Und die auch nach Jahren perfekt aussehen. Da ist viel Skandinavien dabei. 
-                ber hey, manches kommt auch aus Österreich. Und ein bisschen was aus Asien. Es muss allerdings fair sein. 
-                Und cool. Sonst wird das nichts bei Taiga. Einige unserer Lieblingsmarken gibt es hier im Kurzporträt.
-            </p>
-        </div> 
-        <div class="tiger__text--container">
-            <div class="tiger__btn">
-                <div class="arrow__video">
-                    <video autoplay loop muted class="arrow">
-                        <source src="VIDEOS/arroe.mov">
-                    </video>
-                </div>
-                <a href="brand.html" class="tiger__btn-link">OUR BRANDS</a>
+    </div>
+
+            <!--Footer Image-->
+            <div class="footer_image">
+                <img src="IMAGES/Auqarium.png" alt="pic">
             </div>
-        </div>
-        
-    </div>
 
-    
-    <!--Clothing Images-->
-    <div class="clothing">
-        <div class="clothing__sticky">
-            <img id="clothing-image" src="IMAGES/clothing.png" alt="Clothing"></img>
-        </div>
-    </div>
-
-    
-
-
-    <!--Aquarium-->
-    <div class="footer_image">
-        <img src="IMAGES/Auqarium.png" alt="pic">
-    </div>
-    
 
     <!--Footer Section-->
     <div class="footer__container">
+      1
         <div class="footer__links">
                     <a href="impressum.html" >IMPRESSUM</a>
                     <a href="contact.html" >CONTACT</a>
@@ -132,5 +105,5 @@
     </div>
     </div>
     <script src="apps.js"></script>
-</body>
+</body></body>
 </html>

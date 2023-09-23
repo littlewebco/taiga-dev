@@ -532,14 +532,14 @@
 
 /* Aquarium Section */ 
 
-.aquarium__container {
+.footer_image {
     display: inline-block;
     background: linear-gradient(to bottom, #EBD8CD, #c8b4aa);
     max-width: 1920px;
     margin: 0;
 }
 
-.aquarium__container img {
+.footer_image img {
     display: inline;
     max-width: 100%;
     height: auto;
